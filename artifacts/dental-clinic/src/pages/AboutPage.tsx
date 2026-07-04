@@ -103,32 +103,6 @@ export default function AboutPage() {
   return (
     <div className="w-full flex flex-col">
 
-      {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <section className="relative h-[70vh] min-h-[520px] overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1800&h=900&fit=crop"
-          alt="BrightSmile Dental clinic interior"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/55 to-slate-900/30" />
-        <div className="relative z-10 h-full flex items-center">
-          <div className="container mx-auto px-6 lg:px-12">
-            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="max-w-2xl">
-              <div className="inline-flex items-center gap-2 bg-teal-500/20 border border-teal-400/30 text-teal-300 text-sm font-semibold px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
-                <Award className="w-4 h-4" /> Trusted Since 2006
-              </div>
-              <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight tracking-tight">
-                The Story<br /><span className="text-teal-400">Behind the Smile</span>
-              </h1>
-              <p className="mt-6 text-lg text-slate-300 leading-relaxed max-w-xl">
-                Born from a belief that dentistry should feel like sanctuary, not surgery — BrightSmile has spent 18 years proving that elite clinical care and genuine human warmth are never mutually exclusive.
-              </p>
-            </motion.div>
-          </div>
-        </div>
-
-      </section>
-
       {/* ── ORIGIN STORY ─────────────────────────────────────────────────── */}
       <section className="py-28 bg-white">
         <div className="container mx-auto px-6">
