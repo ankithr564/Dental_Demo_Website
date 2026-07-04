@@ -104,15 +104,15 @@ export default function AboutPage() {
     <div className="w-full flex flex-col">
 
       {/* ── ORIGIN STORY ─────────────────────────────────────────────────── */}
-      <section className="py-28 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="py-14 md:py-28 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
             {/* images */}
-            <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="grid grid-cols-2 gap-4">
+            <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="grid grid-cols-2 gap-3 md:gap-4">
               <div className="rounded-2xl overflow-hidden aspect-[3/4]">
                 <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=700&fit=crop&crop=face" alt="Dr Emily Chen" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
               </div>
-              <div className="flex flex-col gap-4 mt-10">
+              <div className="flex flex-col gap-3 md:gap-4 mt-6 md:mt-10">
                 <div className="rounded-2xl overflow-hidden flex-1">
                   <img src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=500&h=400&fit=crop" alt="Dental treatment" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
@@ -125,8 +125,8 @@ export default function AboutPage() {
             {/* text */}
             <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
               <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">Our Origin</span>
-              <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Founded on a Simple Belief</h2>
-              <div className="mt-6 space-y-5 text-slate-600 leading-relaxed text-lg">
+              <h2 className="mt-3 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">Founded on a Simple Belief</h2>
+              <div className="mt-4 md:mt-6 space-y-4 md:space-y-5 text-slate-600 leading-relaxed text-sm md:text-base lg:text-lg">
                 <p>In 2006, Dr. Emily Chen walked away from a prestigious hospital post because she wanted to do something radical: build a dental practice where patients actually <em>wanted</em> to come back.</p>
                 <p>She had seen too many people skip essential care because dentistry felt cold, rushed, and impersonal. So she designed BrightSmile from the floor plan up — wide chairs, warm lighting, unhurried appointments, and a clinical team trained as much in empathy as in enamel.</p>
                 <p>Eighteen years later, BrightSmile is the trusted dental home for over 15,000 patients across Beverly Hills and beyond — a practice built on relationships, not transactions.</p>
@@ -154,11 +154,11 @@ export default function AboutPage() {
       </section>
 
       {/* ── TIMELINE ─────────────────────────────────────────────────────── */}
-      <section className="py-28 bg-slate-50" ref={timelineRef}>
-        <div className="container mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-20">
+      <section className="py-14 md:py-28 bg-slate-50" ref={timelineRef}>
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-10 md:mb-20">
             <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">Our Journey</span>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">18 Years of<br />Milestones</h2>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">18 Years of<br />Milestones</h2>
           </motion.div>
 
           <div className="relative max-w-3xl mx-auto">
@@ -192,12 +192,12 @@ export default function AboutPage() {
       </section>
 
       {/* ── VALUES ───────────────────────────────────────────────────────── */}
-      <section className="py-28 bg-white">
-        <div className="container mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-16">
+      <section className="py-14 md:py-28 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-8 md:mb-16">
             <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">What We Stand For</span>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Our Core Values</h2>
-            <p className="mt-5 text-slate-500 text-lg">Six principles that guide every decision, every treatment, every interaction.</p>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">Our Core Values</h2>
+            <p className="mt-3 text-slate-500 text-sm md:text-lg">Six principles that guide every decision, every treatment, every interaction.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -218,28 +218,28 @@ export default function AboutPage() {
       </section>
 
       {/* ── FULL-WIDTH IMAGE BREAK ────────────────────────────────────────── */}
-      <section className="relative py-0 h-72 md:h-96 overflow-hidden">
+      <section className="relative py-0 h-48 sm:h-64 md:h-96 overflow-hidden">
         <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1800&h=600&fit=crop" alt="Modern dental equipment" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-teal-900/80 to-teal-800/50 flex items-center">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="container mx-auto px-4 md:px-6 lg:px-12">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
-              <Quote className="w-10 h-10 text-teal-300 mb-4" />
-              <blockquote className="text-2xl md:text-3xl font-light text-white italic max-w-2xl leading-relaxed">
+              <Quote className="w-7 h-7 md:w-10 md:h-10 text-teal-300 mb-3 md:mb-4" />
+              <blockquote className="text-base sm:text-xl md:text-3xl font-light text-white italic max-w-2xl leading-relaxed">
                 "We don't just restore teeth. We restore confidence, comfort, and the simple joy of smiling without hesitation."
               </blockquote>
-              <p className="mt-5 text-teal-200 font-semibold">— Dr. Emily Chen, Founder & Clinical Director</p>
+              <p className="mt-3 md:mt-5 text-teal-200 text-sm md:text-base font-semibold">— Dr. Emily Chen, Founder & Clinical Director</p>
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* ── AWARDS & ACCREDITATIONS ──────────────────────────────────────── */}
-      <section className="py-28 bg-slate-50">
-        <div className="container mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-16">
+      <section className="py-14 md:py-28 bg-slate-50">
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-8 md:mb-16">
             <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">Recognition</span>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Awards &amp; Accreditations</h2>
-            <p className="mt-5 text-slate-500 text-lg">We're humbled by the recognition — and driven to keep earning it.</p>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">Awards &amp; Accreditations</h2>
+            <p className="mt-3 text-slate-500 text-sm md:text-lg">We're humbled by the recognition — and driven to keep earning it.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
@@ -260,11 +260,11 @@ export default function AboutPage() {
       </section>
 
       {/* ── DOCTORS PREVIEW ──────────────────────────────────────────────── */}
-      <section className="py-28 bg-white">
-        <div className="container mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-16">
+      <section className="py-14 md:py-28 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-2xl mx-auto mb-8 md:mb-16">
             <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">The Team</span>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">World-Class Specialists,<br />Genuine Human Care</h2>
+            <h2 className="mt-3 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">World-Class Specialists,<br className="hidden sm:block" />Genuine Human Care</h2>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -294,7 +294,7 @@ export default function AboutPage() {
 
       {/* ── PHOTO GALLERY STRIP ──────────────────────────────────────────── */}
       <section className="py-0">
-        <div className="grid grid-cols-2 md:grid-cols-4 h-72 md:h-80">
+        <div className="grid grid-cols-2 md:grid-cols-4 h-40 sm:h-56 md:h-72 lg:h-80">
           {GALLERY.map((src, i) => (
             <div key={i} className="relative overflow-hidden group">
               <img src={src} alt="BrightSmile clinic" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -305,12 +305,12 @@ export default function AboutPage() {
       </section>
 
       {/* ── COMMITMENTS ──────────────────────────────────────────────────── */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="py-12 md:py-20 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
               <span className="text-teal-600 text-sm font-semibold uppercase tracking-widest">Our Promise</span>
-              <h2 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">What You Can Always<br />Expect From Us</h2>
+              <h2 className="mt-3 text-2xl md:text-3xl font-bold text-slate-900 leading-tight">What You Can Always<br />Expect From Us</h2>
               <div className="mt-8 space-y-4">
                 {[
                   "Transparent pricing — no surprise bills",
@@ -346,17 +346,17 @@ export default function AboutPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="relative py-0 h-80 overflow-hidden">
+      <section className="relative py-0 h-56 md:h-80 overflow-hidden">
         <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1800&h=500&fit=crop" alt="BrightSmile invitation" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/60 flex items-center justify-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center">
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">Ready to Experience<br />BrightSmile?</h2>
-            <p className="text-slate-300 text-lg mb-8">Your first consultation is complimentary. No commitment, no pressure.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-teal-500 hover:bg-teal-400 text-white rounded-full px-10 h-14 font-semibold shadow-lg shadow-teal-500/30" asChild>
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center px-4">
+            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-3 md:mb-5 leading-tight">Ready to Experience<br />BrightSmile?</h2>
+            <p className="text-slate-300 text-sm md:text-lg mb-4 md:mb-8 hidden sm:block">Your first consultation is complimentary. No commitment, no pressure.</p>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+              <Button size="lg" className="bg-teal-500 hover:bg-teal-400 text-white rounded-full px-7 md:px-10 h-11 md:h-14 text-sm md:text-base font-semibold shadow-lg shadow-teal-500/30" asChild>
                 <Link href="/book">Book Appointment</Link>
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-10 h-14 font-semibold border-white/40 text-white hover:bg-white/10" asChild>
+              <Button size="lg" variant="outline" className="rounded-full px-7 md:px-10 h-11 md:h-14 text-sm md:text-base font-semibold border-white/40 text-white hover:bg-white/10" asChild>
                 <Link href="/contact">Get in Touch</Link>
               </Button>
             </div>
