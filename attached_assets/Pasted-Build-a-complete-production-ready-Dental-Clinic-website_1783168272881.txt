@@ -1,0 +1,136 @@
+Build a complete, production-ready Dental Clinic website with a premium, modern, responsive UI/UX following current industry standards.
+
+## Design Theme
+
+* Primary Color: White (#FFFFFF)
+* Secondary Accent Color: Teal (#14B8A6)
+* Neutral Colors: Light Gray (#F8FAFC), Slate (#334155)
+* Premium, clean, minimal healthcare aesthetic.
+* Use generous whitespace, modern typography, rounded corners, subtle shadows, smooth animations, and elegant transitions.
+* Create a trustworthy, luxury dental clinic experience.
+* Fully responsive across desktop, tablet, and mobile.
+
+## Images
+
+Use premium-quality royalty-free dental images throughout the website:
+
+* Modern dental clinic interior
+* Professional dentists
+* Happy patients
+* Teeth whitening
+* Dental implants
+* Orthodontics
+* Pediatric dentistry
+* Digital dentistry
+* Reception area
+* Modern equipment
+
+Images should be high-resolution, professional, visually consistent, and optimized for fast loading.
+
+## Website Pages
+
+* Home
+* About Us
+* Services
+* Treatments
+* Doctors
+* Gallery
+* Testimonials
+* FAQs
+* Blog
+* Contact
+* Book Appointment
+
+## Home Page Sections
+
+* Premium Hero Banner
+* Why Choose Our Clinic
+* Services Overview
+* Meet Our Dentists
+* Technology & Equipment
+* Before & After Gallery
+* Patient Testimonials
+* Appointment CTA
+* Latest Blog Posts
+* FAQs
+* Contact Section
+* Premium Footer
+
+## Features
+
+* Responsive Navigation
+* Sticky Header
+* Mobile Navigation
+* Hero Carousel
+* Smooth Scrolling
+* Scroll Reveal Animations
+* Interactive Cards
+* Image Gallery
+* Appointment Booking Form
+* Contact Form
+* Google Maps Integration
+* Social Media Links
+* Newsletter Subscription
+* Loading Animations
+* Skeleton Loaders
+* Hover Effects
+* Toast Notifications
+* Form Validation
+* Professional Footer
+* Scroll to Top Button
+* Reusable Components
+* Accessibility (WCAG basics)
+
+## Frontend Tech Stack
+
+* Next.js (Latest App Router)
+* React (Latest Stable)
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Framer Motion
+* Lucide React Icons
+* React Hook Form
+* Zod
+* Axios
+
+## Backend Tech Stack
+
+* Node.js
+* Express.js
+* TypeScript
+* REST API Architecture
+
+## Basic SEO
+
+Implement only basic SEO:
+
+* SEO-friendly URLs
+* Dynamic Meta Titles
+* Meta Descriptions
+* Open Graph Tags
+* Twitter Card Tags
+* Canonical URLs
+* robots.txt
+* sitemap.xml
+* Structured Semantic HTML
+* Proper Heading Hierarchy (H1-H6)
+* Image Alt Text
+* Optimized Images
+* Fast Page Loading
+* Mobile-Friendly Design
+
+## Code Quality
+
+* Clean Architecture
+* Modular Folder Structure
+* Reusable Components
+* Responsive Design
+* Optimized Performance
+* Lazy Loading where appropriate
+* Consistent Code Style
+* Well-organized project structure
+
+## Overall Goal
+
+Build a complete, elegant, premium-quality dental clinic website that matches the design standards of top healthcare and dental websites. The website should feel modern, trustworthy, luxurious, fast, and highly polished with an exceptional user experience, using the latest industry-standard frontend and backend technologies.
