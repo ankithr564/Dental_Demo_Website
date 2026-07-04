@@ -127,17 +127,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* stats bar overlay */}
-        <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-teal-800/90 to-transparent py-8">
-          <div className="container mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl">
-              <StatPill value={`${stats?.patientsServed?.toLocaleString() ?? "15,420"}+`} label="Patients" />
-              <StatPill value={`${stats?.yearsExperience ?? 18}+`} label="Years" />
-              <StatPill value={`${stats?.doctorsCount ?? 4}`} label="Specialists" />
-              <StatPill value={`${stats?.satisfactionRate ?? 98.7}%`} label="Satisfaction" />
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* ── ORIGIN STORY ─────────────────────────────────────────────────── */}
